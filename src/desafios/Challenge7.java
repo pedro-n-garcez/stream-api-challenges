@@ -3,7 +3,6 @@ package desafios;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 //return the second-largest number in the list
 
