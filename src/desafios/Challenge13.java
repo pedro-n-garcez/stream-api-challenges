@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-//filter numbers within a range
+//filter numbers within a range to return numbers outside of it
 
 public class Challenge13 {
     public static void main(String[] args) {
@@ -12,10 +12,14 @@ public class Challenge13 {
         int lowerBound = 3;
         int upperBound = 9;
 
-        Predicate<Integer> range = number -> number > lowerBound && number < upperBound;
+        Predicate<Integer> isOutsideOfRange = number -> {
+            if (number > lowerBound && number < upperBound)
+                return false;
+            else return true;
+        };
 
         List<Integer> numbersWithinRange = numbers.stream()
-                .filter(range)
+                .filter(isOutsideOfRange)
                 .toList();
 
         numbersWithinRange.stream()
