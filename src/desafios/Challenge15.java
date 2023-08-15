@@ -2,8 +2,6 @@ package desafios;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
-import java.util.function.Predicate;
 
 //check if there is at least one negative number
 

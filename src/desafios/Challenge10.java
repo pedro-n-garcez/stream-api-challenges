@@ -2,9 +2,7 @@ package desafios;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 //group odd numbers that are multiples of either 3 or 5
 

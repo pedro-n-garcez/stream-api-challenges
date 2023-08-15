@@ -2,7 +2,6 @@ package desafios;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.function.Predicate;
 
 //check if all numbers in the list are equal
